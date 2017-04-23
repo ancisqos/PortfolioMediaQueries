@@ -1,0 +1,176 @@
+body{
+	background-image: url(../images/Seamless.png);
+  
+  font-family: Georgia, Times, serif;
+}
+
+#container{
+  width: 960px;
+}
+
+.nav-links{
+  list-style-type: none
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-style: sans-serif;
+  padding-left: 770px;
+  padding-bottom: ;
+  display: block;
+  color: #bebebe;
+  }
+
+li{
+  display: inline;
+}
+
+#contact-info{
+	float:right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  color: white;
+  font-size: 18px;
+
+}
+
+h1{
+  background: #ffffff;
+  color: #4aaaa5;
+  padding: 20px;
+  height: 100px;
+  float: right;
+  
+}
+
+h2{
+  color: #4aaaa5;
+  font-size: 20px;
+}
+
+h3{
+  color: #4aaaa5;
+  border-bottom: 20px;
+  background: #ffffff;
+
+}
+
+h4{
+  font-size: 22px;
+  background: #4aaaa5;
+  color: #ffffff;
+  width: 180px;
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  position: relative;
+  top: 50px;
+
+}
+
+p{
+  font-size: 16px;
+}
+
+#aboutMe{
+  background: #ffffff;
+  border-color: #dddddd;
+  padding-left: 20px;
+  padding top: 50px;
+  width: 650px;
+  font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+  font-size: 18px;
+  position: absolute;
+  margin-left: 100px;
+}
+
+#portfolioImage{
+	float:left;
+	margin right: 20px;
+}
+
+#MiniBox{
+  background: #ffffff;
+  color: #4aaaa5;
+  padding: 20px;
+  height: 100px;
+  text-align: center;
+  font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif'
+  font-size: 18px;
+  position: relative;
+  margin-right: 300px;
+}
+
+#Portfolio{
+  background: #ffffff;
+  border-color: #dddddd;
+  padding-left: 20px;
+  padding top: 50px;
+  width: 650px;
+  font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+  font-size: 18px;
+  position: absolute;
+  margin-left: 100px;
+  height: 500px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background: #4aaaa5;
+    color: #ffffff;
+  }
+
+/* MEDIA QUERY STARTS HERE YAY :) */
+@media screen and (max-width: 750px) {
+    .nav-links{
+      width: 100%;
+    }
+
+  #aboutMe{
+    width: 75%;
+    background-color: grey;
+    color: white;
+    margin-right: 25%;
+  }
+
+  #Portfolio{
+    width: 75%;
+    height: 610px;
+    background-color: cyan;
+  }
+
+  h3{
+    background-color: grey;
+    color: white;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+
+  h3{
+    color: green;
+  }
+
+  h4{
+    color: red;
+  }
